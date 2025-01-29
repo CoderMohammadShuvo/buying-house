@@ -1,10 +1,9 @@
 export const NAV_DATA = [
   {
-    name: "Collection",
+    name: "Men",
     id: 1,
     category: [
       "Shop All",
-      "Boluses & Top",
       "Pants",
       "Dresses & Jumpsuits",
       "Outwear & Jackets",
@@ -18,13 +17,13 @@ export const NAV_DATA = [
     nameFeat: "Featured ",
     nameMore: "More",
     imageData: [
-      "https://vbvdajzlbaysznoviuwa.supabase.co/storage/v1/object/sign/images/life-02.webp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvbGlmZS0wMi53ZWJwIiwiaWF0IjoxNzEzMzAwOTA0LCJleHAiOjE5MDI1MTY5MDR9.utui39p74ZoRAOY02aFU28-rWmoaJv3QDD6URYNrB58&t=2024-04-16T20%3A55%3A04.841Z",
-      "https://vbvdajzlbaysznoviuwa.supabase.co/storage/v1/object/sign/images/life-01.webp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvbGlmZS0wMS53ZWJwIiwiaWF0IjoxNzEzMzAwODQyLCJleHAiOjE5MDI1MTY4NDJ9.mohfNxVTIAIgAjbICoEDITct4H2rj26jKwPoOG9pAa0&t=2024-04-16T20%3A54%3A03.059Z",
+      "https://st.depositphotos.com/1550494/2604/i/450/depositphotos_26043279-stock-photo-retro-fifties-summer-fashion-man.jpg",
+      "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/095e54f6235501c223ca4f27671afc60.jpg?imageView2/2/w/500/q/60/format/webp",
     ],
     imageDescription: ["Blouses", "Plus Size"],
   },
   {
-    name: "New In",
+    name: "Women",
     id: 2,
     category: [
       "Shop All",
@@ -48,7 +47,7 @@ export const NAV_DATA = [
     imageDescription: ["Fall Collection", "Blouses", "Dresses"],
   },
   {
-    name: "Modiweek",
+    name: "Sports",
     id: 3,
     category: [
       "Shop All",
@@ -63,47 +62,46 @@ export const NAV_DATA = [
     nameCat: "Category",
     nameFeat: "Trending ",
     imageData: [
-      "https://vbvdajzlbaysznoviuwa.supabase.co/storage/v1/object/sign/images/zara-01.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvemFyYS0wMS5qcGciLCJpYXQiOjE3MTMzMDExNjYsImV4cCI6MTkwMjUxNzE2Nn0.S6Ymdc2qHrrsKKn1k4BnJuHDWx9MxIBjdxh7d6yRDvs&t=2024-04-16T20%3A59%3A26.501Z",
-      "https://vbvdajzlbaysznoviuwa.supabase.co/storage/v1/object/sign/images/zara-02.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvemFyYS0wMi5qcGciLCJpYXQiOjE3MTMzMDEyMTgsImV4cCI6MTkwMjUxNzIxOH0.Mc9Y-MttDLwVggJ6G2uMQaXcJJni2Dd8WKYHUEPLsCk&t=2024-04-16T21%3A00%3A18.773Z",
+      "https://m.media-amazon.com/images/I/518SyeVl5zL._AC_UY1000_.jpg",
+      "https://i5.walmartimages.com/seo/Men-s-Solid-Color-Suit-Round-Neck-Long-Sleeve-T-Shirt-Trousers-Tight-Two-Piece-Set-Light-Blue-XXL_ccc8a5fa-8f77-4960-86b7-8a57337a6064.05fd0f0b89653e5e7915fb6effb9db48.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
     ],
-    imageDescription: ["Blouses", "Dresses"],
+    imageDescription: [],
   },
-  {
-    name: "Plus Size",
-    id: 4,
-    category: [
-      "Shop All",
-      "Tops & Blouses",
-      "Tees",
-      "Pants",
-      "Jackets & Outwears",
-      "Pullovers",
-      "Dresses & Jumpsuits",
-      "Shorts & Skirts",
-    ],
-    nameCat: "Category",
-    imageData: [
-      "https://vbvdajzlbaysznoviuwa.supabase.co/storage/v1/object/sign/images/plussize-03.webp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvcGx1c3NpemUtMDMud2VicCIsImlhdCI6MTcxMzMwMjAwMiwiZXhwIjoxOTAyNTE4MDAyfQ.EwkZHODcLgKWPXFpancaIMh2uRSqcvCx_YMNf0ZnNMw&t=2024-04-16T21%3A13%3A22.540Z",
-      "https://vbvdajzlbaysznoviuwa.supabase.co/storage/v1/object/sign/images/plussize-02.webp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvcGx1c3NpemUtMDIud2VicCIsImlhdCI6MTcxMzMwMTgxMywiZXhwIjoxOTAyNTE3ODEzfQ.hNXxJmH2LD14EuVvhLyHkK6_HkZ4miZa4rH8IK-Iiv4&t=2024-04-16T21%3A10%3A13.793Z",
-      "https://vbvdajzlbaysznoviuwa.supabase.co/storage/v1/object/sign/images/plussize-01.webp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvcGx1c3NpemUtMDEud2VicCIsImlhdCI6MTcxMzMwMTc1NywiZXhwIjoxOTAyNTE3NzU3fQ.KFhAR7c6qV4u_qqiZhvgdu3YaVZhVPA7cc51GSEot9M&t=2024-04-16T21%3A09%3A17.930Z",
-    ],
-    imageDescription: ["Pants", "Dresses", "Blouses"],
-  },
-  {
-    name: "Sustainability",
-    id: 5,
-    category: [
-      "Mission",
-      "Processing",
-      "Materials",
-      "Packaging",
-      "Product Care",
-      "Our Suppliers",
-    ],
-    nameCat: "Sustainability ",
-    imageData: [
-      "https://vbvdajzlbaysznoviuwa.supabase.co/storage/v1/object/sign/images/sus-01.webp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvc3VzLTAxLndlYnAiLCJpYXQiOjE3MTMzMDIxMTgsImV4cCI6MTkwMjUxODExOH0.sLFCcAENE7C3jtTPz_5kUbJn8Wm7W9KFK19fSURKjoQ&t=2024-04-16T21%3A15%3A18.736Z",
-      "https://vbvdajzlbaysznoviuwa.supabase.co/storage/v1/object/sign/images/k-02.webp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvay0wMi53ZWJwIiwiaWF0IjoxNzEzMzAyMzUwLCJleHAiOjE5MDI1MTgzNTB9.0bhrkXqRmLJOGVDljkYPPfpMETjMVpyKqxemsZoow8M&t=2024-04-16T21%3A19%3A11.038Z",
-    ],
-  },
+  // {
+  //   name: "Plus Size",
+  //   id: 4,
+  //   category: [
+  //     "Shop All",
+  //     "Tees",
+  //     "Pants",
+  //     "Jackets & Outwears",
+  //     "Pullovers",
+  //     "Dresses & Jumpsuits",
+  //     "Shorts & Skirts",
+  //   ],
+  //   nameCat: "Category",
+  //   imageData: [
+  //     "https://vbvdajzlbaysznoviuwa.supabase.co/storage/v1/object/sign/images/plussize-03.webp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvcGx1c3NpemUtMDMud2VicCIsImlhdCI6MTcxMzMwMjAwMiwiZXhwIjoxOTAyNTE4MDAyfQ.EwkZHODcLgKWPXFpancaIMh2uRSqcvCx_YMNf0ZnNMw&t=2024-04-16T21%3A13%3A22.540Z",
+  //     "https://vbvdajzlbaysznoviuwa.supabase.co/storage/v1/object/sign/images/plussize-02.webp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvcGx1c3NpemUtMDIud2VicCIsImlhdCI6MTcxMzMwMTgxMywiZXhwIjoxOTAyNTE3ODEzfQ.hNXxJmH2LD14EuVvhLyHkK6_HkZ4miZa4rH8IK-Iiv4&t=2024-04-16T21%3A10%3A13.793Z",
+  //     "https://vbvdajzlbaysznoviuwa.supabase.co/storage/v1/object/sign/images/plussize-01.webp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvcGx1c3NpemUtMDEud2VicCIsImlhdCI6MTcxMzMwMTc1NywiZXhwIjoxOTAyNTE3NzU3fQ.KFhAR7c6qV4u_qqiZhvgdu3YaVZhVPA7cc51GSEot9M&t=2024-04-16T21%3A09%3A17.930Z",
+  //   ],
+  //   imageDescription: ["Pants", "Dresses", "Blouses"],
+  // },
+  // {
+  //   name: "Sustainability",
+  //   id: 5,
+  //   category: [
+  //     "Mission",
+  //     "Processing",
+  //     "Materials",
+  //     "Packaging",
+  //     "Product Care",
+  //     "Our Suppliers",
+  //   ],
+  //   nameCat: "Sustainability ",
+  //   imageData: [
+  //     "https://vbvdajzlbaysznoviuwa.supabase.co/storage/v1/object/sign/images/sus-01.webp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvc3VzLTAxLndlYnAiLCJpYXQiOjE3MTMzMDIxMTgsImV4cCI6MTkwMjUxODExOH0.sLFCcAENE7C3jtTPz_5kUbJn8Wm7W9KFK19fSURKjoQ&t=2024-04-16T21%3A15%3A18.736Z",
+  //     "https://vbvdajzlbaysznoviuwa.supabase.co/storage/v1/object/sign/images/k-02.webp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvay0wMi53ZWJwIiwiaWF0IjoxNzEzMzAyMzUwLCJleHAiOjE5MDI1MTgzNTB9.0bhrkXqRmLJOGVDljkYPPfpMETjMVpyKqxemsZoow8M&t=2024-04-16T21%3A19%3A11.038Z",
+  //   ],
+  // },
 ];

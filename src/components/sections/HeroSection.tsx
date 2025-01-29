@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { useTheme } from '@mui/material/styles';
 import { Button, Typography, useMediaQuery } from '@mui/material';
-import HeroImage from '@/public/hero-desktop.jpeg';
+import HeroImage from '@/public/hero-desktop.png';
 import { Box } from '@mui/material';
 
 function HeroSection() {
@@ -40,7 +40,7 @@ function HeroSection() {
          
         }}
       >
-        <Typography variant={matches ? 'h5' : 'h4'}>
+        <Typography variant={matches ? 'h5' : 'h4'} style={{ color: '#ffff' }}>
           Elegance in simplicity,
           <br />
           Earth’s Harmony

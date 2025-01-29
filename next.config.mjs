@@ -4,10 +4,9 @@ const nextConfig = {
   images: {
     remotePatterns: [
       {
-        hostname: 'vbvdajzlbaysznoviuwa.supabase.co',
+        hostname: '**', // This is the workaround to allow any external domain
         pathname: '**',
         protocol: 'https',
-        port: '',
       },
     ],
   },
@@ -15,4 +14,5 @@ const nextConfig = {
     externalResolver: true,
   },
 };
+
 export default nextConfig;
