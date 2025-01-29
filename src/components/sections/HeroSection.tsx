@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { useTheme } from '@mui/material/styles';
 import { Button, Typography, useMediaQuery } from '@mui/material';
-import HeroImage from '@/public/hero-desktop.png';
+import HeroImage from '@/public/hero-Desktop.png';
 import { Box } from '@mui/material';
 
 function HeroSection() {
