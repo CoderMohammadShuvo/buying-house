@@ -4,8 +4,8 @@ import AuthProvider from '../context/authContext';
 import { Providers } from './providers';
 
 export const metadata = {
-  title: 'E-commrece Women Clothing',
-  description: 'A E-commerece clothing for Women',
+  title: 'Buying House',
+  description: 'E-commrece for Buying House in Puran Dhaka, Bangladesh',
 };
 
 export default function RootLayout({
